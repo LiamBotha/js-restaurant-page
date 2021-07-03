@@ -12,7 +12,7 @@ export default function menuLoad() {
     let itemC = document.createElement("h3");
     let itemD = document.createElement("h3");
 
-    img.style.background = "url(bgImg)";
+    img.style.background = "url(" + bgImg + ")";
     img.style.width = "100%";
     img.style.height = "100%";
     img.style.backgroundSize = "cover";

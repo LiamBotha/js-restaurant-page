@@ -14,7 +14,9 @@ export default function pageLoad() {
     header.style.textAlign = "center";
     header.style.fontSize = "4rem";
 
-    img.style.background = "url(bgImg)";
+    console.log(bgImg);
+
+    img.style.background = "url(" + bgImg + ")";
     img.style.width = "100%";
     img.style.height = "100%";
     img.style.backgroundSize = "cover";
