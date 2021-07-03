@@ -1,3 +1,5 @@
+import bgImg from "./img.jpg";
+
 export default function pageLoad() {
     const container = document.querySelector('#content');
 
@@ -12,7 +14,7 @@ export default function pageLoad() {
     header.style.textAlign = "center";
     header.style.fontSize = "4rem";
 
-    img.style.background = "url(/src/img.jpg)";
+    img.style.background = "url(bgImg)";
     img.style.width = "100%";
     img.style.height = "100%";
     img.style.backgroundSize = "cover";

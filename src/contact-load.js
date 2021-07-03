@@ -1,3 +1,5 @@
+import bgImg from "./img.jpg";
+
 export default function contactLoad() {
     const container = document.querySelector("#content");
 
@@ -8,7 +10,7 @@ export default function contactLoad() {
     let address = document.createElement("h3");
     let hours = document.createElement("h3");
 
-    img.style.background = "url(/src/img.jpg";
+    img.style.background = "url(bgImg)";
     img.style.width = "100%";
     img.style.height = "100%";
     img.style.backgroundSize = "cover";
